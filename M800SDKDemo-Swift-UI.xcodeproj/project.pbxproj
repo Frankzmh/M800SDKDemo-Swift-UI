@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55329D791FC6DFC50006492B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55329D781FC6DFC50006492B /* AppDelegate.swift */; };
+		55329D7B1FC6DFC50006492B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55329D7A1FC6DFC50006492B /* ViewController.swift */; };
+		55329D7E1FC6DFC50006492B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55329D7C1FC6DFC50006492B /* Main.storyboard */; };
+		55329D801FC6DFC50006492B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55329D7F1FC6DFC50006492B /* Assets.xcassets */; };
+		55329D831FC6DFC50006492B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55329D811FC6DFC50006492B /* LaunchScreen.storyboard */; };
+		55329D8E1FC6DFC60006492B /* M800SDKDemo_Swift_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55329D8D1FC6DFC60006492B /* M800SDKDemo_Swift_UITests.swift */; };
+		55329D991FC6DFC60006492B /* M800SDKDemo_Swift_UIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55329D981FC6DFC60006492B /* M800SDKDemo_Swift_UIUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55329D8A1FC6DFC60006492B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55329D6D1FC6DFC50006492B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55329D741FC6DFC50006492B;
+			remoteInfo = "M800SDKDemo-Swift-UI";
+		};
+		55329D951FC6DFC60006492B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55329D6D1FC6DFC50006492B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55329D741FC6DFC50006492B;
+			remoteInfo = "M800SDKDemo-Swift-UI";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		55329D751FC6DFC50006492B /* M800SDKDemo-Swift-UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "M800SDKDemo-Swift-UI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55329D781FC6DFC50006492B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		55329D7A1FC6DFC50006492B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		55329D7D1FC6DFC50006492B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		55329D7F1FC6DFC50006492B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55329D821FC6DFC50006492B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		55329D841FC6DFC50006492B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55329D891FC6DFC60006492B /* M800SDKDemo-Swift-UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "M800SDKDemo-Swift-UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55329D8D1FC6DFC60006492B /* M800SDKDemo_Swift_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M800SDKDemo_Swift_UITests.swift; sourceTree = "<group>"; };
+		55329D8F1FC6DFC60006492B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55329D941FC6DFC60006492B /* M800SDKDemo-Swift-UIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "M800SDKDemo-Swift-UIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55329D981FC6DFC60006492B /* M800SDKDemo_Swift_UIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M800SDKDemo_Swift_UIUITests.swift; sourceTree = "<group>"; };
+		55329D9A1FC6DFC60006492B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55329D721FC6DFC50006492B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55329D861FC6DFC60006492B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55329D911FC6DFC60006492B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55329D6C1FC6DFC50006492B = {
+			isa = PBXGroup;
+			children = (
+				55329D771FC6DFC50006492B /* M800SDKDemo-Swift-UI */,
+				55329D8C1FC6DFC60006492B /* M800SDKDemo-Swift-UITests */,
+				55329D971FC6DFC60006492B /* M800SDKDemo-Swift-UIUITests */,
+				55329D761FC6DFC50006492B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55329D761FC6DFC50006492B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55329D751FC6DFC50006492B /* M800SDKDemo-Swift-UI.app */,
+				55329D891FC6DFC60006492B /* M800SDKDemo-Swift-UITests.xctest */,
+				55329D941FC6DFC60006492B /* M800SDKDemo-Swift-UIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55329D771FC6DFC50006492B /* M800SDKDemo-Swift-UI */ = {
+			isa = PBXGroup;
+			children = (
+				55329D781FC6DFC50006492B /* AppDelegate.swift */,
+				55329D7A1FC6DFC50006492B /* ViewController.swift */,
+				55329D7C1FC6DFC50006492B /* Main.storyboard */,
+				55329D7F1FC6DFC50006492B /* Assets.xcassets */,
+				55329D811FC6DFC50006492B /* LaunchScreen.storyboard */,
+				55329D841FC6DFC50006492B /* Info.plist */,
+			);
+			path = "M800SDKDemo-Swift-UI";
+			sourceTree = "<group>";
+		};
+		55329D8C1FC6DFC60006492B /* M800SDKDemo-Swift-UITests */ = {
+			isa = PBXGroup;
+			children = (
+				55329D8D1FC6DFC60006492B /* M800SDKDemo_Swift_UITests.swift */,
+				55329D8F1FC6DFC60006492B /* Info.plist */,
+			);
+			path = "M800SDKDemo-Swift-UITests";
+			sourceTree = "<group>";
+		};
+		55329D971FC6DFC60006492B /* M800SDKDemo-Swift-UIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				55329D981FC6DFC60006492B /* M800SDKDemo_Swift_UIUITests.swift */,
+				55329D9A1FC6DFC60006492B /* Info.plist */,
+			);
+			path = "M800SDKDemo-Swift-UIUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55329D741FC6DFC50006492B /* M800SDKDemo-Swift-UI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55329D9D1FC6DFC60006492B /* Build configuration list for PBXNativeTarget "M800SDKDemo-Swift-UI" */;
+			buildPhases = (
+				55329D711FC6DFC50006492B /* Sources */,
+				55329D721FC6DFC50006492B /* Frameworks */,
+				55329D731FC6DFC50006492B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "M800SDKDemo-Swift-UI";
+			productName = "M800SDKDemo-Swift-UI";
+			productReference = 55329D751FC6DFC50006492B /* M800SDKDemo-Swift-UI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55329D881FC6DFC60006492B /* M800SDKDemo-Swift-UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55329DA01FC6DFC60006492B /* Build configuration list for PBXNativeTarget "M800SDKDemo-Swift-UITests" */;
+			buildPhases = (
+				55329D851FC6DFC60006492B /* Sources */,
+				55329D861FC6DFC60006492B /* Frameworks */,
+				55329D871FC6DFC60006492B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55329D8B1FC6DFC60006492B /* PBXTargetDependency */,
+			);
+			name = "M800SDKDemo-Swift-UITests";
+			productName = "M800SDKDemo-Swift-UITests";
+			productReference = 55329D891FC6DFC60006492B /* M800SDKDemo-Swift-UITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		55329D931FC6DFC60006492B /* M800SDKDemo-Swift-UIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55329DA31FC6DFC60006492B /* Build configuration list for PBXNativeTarget "M800SDKDemo-Swift-UIUITests" */;
+			buildPhases = (
+				55329D901FC6DFC60006492B /* Sources */,
+				55329D911FC6DFC60006492B /* Frameworks */,
+				55329D921FC6DFC60006492B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55329D961FC6DFC60006492B /* PBXTargetDependency */,
+			);
+			name = "M800SDKDemo-Swift-UIUITests";
+			productName = "M800SDKDemo-Swift-UIUITests";
+			productReference = 55329D941FC6DFC60006492B /* M800SDKDemo-Swift-UIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55329D6D1FC6DFC50006492B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "张明红";
+				TargetAttributes = {
+					55329D741FC6DFC50006492B = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					55329D881FC6DFC60006492B = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 55329D741FC6DFC50006492B;
+					};
+					55329D931FC6DFC60006492B = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 55329D741FC6DFC50006492B;
+					};
+				};
+			};
+			buildConfigurationList = 55329D701FC6DFC50006492B /* Build configuration list for PBXProject "M800SDKDemo-Swift-UI" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55329D6C1FC6DFC50006492B;
+			productRefGroup = 55329D761FC6DFC50006492B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55329D741FC6DFC50006492B /* M800SDKDemo-Swift-UI */,
+				55329D881FC6DFC60006492B /* M800SDKDemo-Swift-UITests */,
+				55329D931FC6DFC60006492B /* M800SDKDemo-Swift-UIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55329D731FC6DFC50006492B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55329D831FC6DFC50006492B /* LaunchScreen.storyboard in Resources */,
+				55329D801FC6DFC50006492B /* Assets.xcassets in Resources */,
+				55329D7E1FC6DFC50006492B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55329D871FC6DFC60006492B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55329D921FC6DFC60006492B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55329D711FC6DFC50006492B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55329D7B1FC6DFC50006492B /* ViewController.swift in Sources */,
+				55329D791FC6DFC50006492B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55329D851FC6DFC60006492B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55329D8E1FC6DFC60006492B /* M800SDKDemo_Swift_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55329D901FC6DFC60006492B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55329D991FC6DFC60006492B /* M800SDKDemo_Swift_UIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55329D8B1FC6DFC60006492B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55329D741FC6DFC50006492B /* M800SDKDemo-Swift-UI */;
+			targetProxy = 55329D8A1FC6DFC60006492B /* PBXContainerItemProxy */;
+		};
+		55329D961FC6DFC60006492B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55329D741FC6DFC50006492B /* M800SDKDemo-Swift-UI */;
+			targetProxy = 55329D951FC6DFC60006492B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		55329D7C1FC6DFC50006492B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55329D7D1FC6DFC50006492B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		55329D811FC6DFC50006492B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55329D821FC6DFC50006492B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55329D9B1FC6DFC60006492B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		55329D9C1FC6DFC60006492B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55329D9E1FC6DFC60006492B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5ST8JR333L;
+				INFOPLIST_FILE = "M800SDKDemo-Swift-UI/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mohan.m800.M800SDKDemo-Swift-UI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55329D9F1FC6DFC60006492B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5ST8JR333L;
+				INFOPLIST_FILE = "M800SDKDemo-Swift-UI/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mohan.m800.M800SDKDemo-Swift-UI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		55329DA11FC6DFC60006492B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5ST8JR333L;
+				INFOPLIST_FILE = "M800SDKDemo-Swift-UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mohan.m800.M800SDKDemo-Swift-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/M800SDKDemo-Swift-UI.app/M800SDKDemo-Swift-UI";
+			};
+			name = Debug;
+		};
+		55329DA21FC6DFC60006492B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5ST8JR333L;
+				INFOPLIST_FILE = "M800SDKDemo-Swift-UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mohan.m800.M800SDKDemo-Swift-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/M800SDKDemo-Swift-UI.app/M800SDKDemo-Swift-UI";
+			};
+			name = Release;
+		};
+		55329DA41FC6DFC60006492B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5ST8JR333L;
+				INFOPLIST_FILE = "M800SDKDemo-Swift-UIUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mohan.m800.M800SDKDemo-Swift-UIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "M800SDKDemo-Swift-UI";
+			};
+			name = Debug;
+		};
+		55329DA51FC6DFC60006492B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5ST8JR333L;
+				INFOPLIST_FILE = "M800SDKDemo-Swift-UIUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mohan.m800.M800SDKDemo-Swift-UIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "M800SDKDemo-Swift-UI";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55329D701FC6DFC50006492B /* Build configuration list for PBXProject "M800SDKDemo-Swift-UI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55329D9B1FC6DFC60006492B /* Debug */,
+				55329D9C1FC6DFC60006492B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55329D9D1FC6DFC60006492B /* Build configuration list for PBXNativeTarget "M800SDKDemo-Swift-UI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55329D9E1FC6DFC60006492B /* Debug */,
+				55329D9F1FC6DFC60006492B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55329DA01FC6DFC60006492B /* Build configuration list for PBXNativeTarget "M800SDKDemo-Swift-UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55329DA11FC6DFC60006492B /* Debug */,
+				55329DA21FC6DFC60006492B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55329DA31FC6DFC60006492B /* Build configuration list for PBXNativeTarget "M800SDKDemo-Swift-UIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55329DA41FC6DFC60006492B /* Debug */,
+				55329DA51FC6DFC60006492B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55329D6D1FC6DFC50006492B /* Project object */;
+}
