@@ -99,10 +99,7 @@
 			children = (
 				55329D781FC6DFC50006492B /* AppDelegate.swift */,
 				55329D7A1FC6DFC50006492B /* ViewController.swift */,
-				55329D7C1FC6DFC50006492B /* Main.storyboard */,
-				55329D7F1FC6DFC50006492B /* Assets.xcassets */,
-				55329D811FC6DFC50006492B /* LaunchScreen.storyboard */,
-				55329D841FC6DFC50006492B /* Info.plist */,
+				554CB2191FC834DC009108C8 /* SupportFiles */,
 			);
 			path = "M800SDKDemo-Swift-UI";
 			sourceTree = "<group>";
@@ -123,6 +120,17 @@
 				55329D9A1FC6DFC60006492B /* Info.plist */,
 			);
 			path = "M800SDKDemo-Swift-UIUITests";
+			sourceTree = "<group>";
+		};
+		554CB2191FC834DC009108C8 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				55329D7C1FC6DFC50006492B /* Main.storyboard */,
+				55329D7F1FC6DFC50006492B /* Assets.xcassets */,
+				55329D811FC6DFC50006492B /* LaunchScreen.storyboard */,
+				55329D841FC6DFC50006492B /* Info.plist */,
+			);
+			path = SupportFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
